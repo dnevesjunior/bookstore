@@ -20,10 +20,19 @@ class BooksController < ApplicationController
     head :no_content
   end
 
+  def search
+    @books = Book.search(search_params)
+    json_response(@books)
+  end
+
   private
 
   def book_params
     params.permit(:id, :title, :author, :isbn, :price)
+  end
+
+  def search_params
+    params.permit(:title, :isbn)
   end
 
   def set_book
