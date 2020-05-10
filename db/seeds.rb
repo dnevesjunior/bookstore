@@ -12,5 +12,6 @@
     author: Faker::Book.author,
     isbn: Faker::Code.isbn,
     price: Faker::Number.number(digits: 10),
+    short_description: Faker::Lorem.sentence(word_count: 5),
   )
 end
