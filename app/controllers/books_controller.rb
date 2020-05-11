@@ -21,8 +21,8 @@ class BooksController < ApplicationController
   end
 
   def search
-    @books = Book.search(search_params)
-    json_response(@books)
+    @books = Book.search(search_params) unless search_params.empty?
+    json_response(@books || [])
   end
 
   private

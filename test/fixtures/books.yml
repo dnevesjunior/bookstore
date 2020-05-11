@@ -1,13 +1,22 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  author: MyString
-  isbn: MyString
-  price: MyString
+  title: "Test 1"
+  author: "Author Test 1"
+  isbn: "123456789"
+  price: "2000"
+  short_description: "Short description"
 
 two:
-  title: MyString
-  author: MyString
-  isbn: MyString
-  price: MyString
+  title: "Test 2"
+  author: "Author Test 2"
+  isbn: "123654987"
+  price: "4000"
+  short_description: "Short description"
+
+three:
+  title: "Another one"
+  author: "Author Test 3"
+  isbn: "777777777"
+  price: "4000"
+  short_description: "Short description"
