@@ -1,5 +1,5 @@
 # Bookstore Server
-> Backend for Bookstore application - Jobsity Application Test
+> Backend for Bookstore application
 
 ## Development
 
